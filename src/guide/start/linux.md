@@ -4,6 +4,17 @@
 
 到 [node 官网](https://nodejs.org/)进行下载安装，建议使用 18 版本，最低不得低于 14 版本。**需要配置好环境变量**，以确保命令行能够正常访问 `node` 和 `npm` 命令。
 
+建议采用以下方法
+```shell
+sudo apt-get install nodejs npm
+```
+此事node版本应该为12，所以继续执行
+```shell
+sudo npm i -g n
+sudo n stable
+```
+来进行更新
+
 ## 安装 KiviBot CLI
 
 ```shell
