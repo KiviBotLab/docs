@@ -1,5 +1,9 @@
 # 在 Linux 平台使用 KiviBot {#linux}
 
+## CentOS
+
+CentOS 7.9 可用的稳定版本是v16.19.0
+
 ## 安装 Node.js
 
 使用对应的包管理器, 或者到 [node 官网](https://nodejs.org/)进行下载安装, 建议使用 18 版本, 最低不得低于 14 版本。**需要配置好环境变量**(包括 `NODE_HOME` 变量), 以确保命令行能够正常访问 `node` 和 `npm` 命令。
